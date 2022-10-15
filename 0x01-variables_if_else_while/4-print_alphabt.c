@@ -3,7 +3,7 @@
 /**
  * main -> input the ASCII number corresponding to the character
  * print out corresponding character
- * Return (0) as success
+ * Return: always (0) as success
  */
 
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
 		}
 	}
 
-	putchar(0);
+	putchar(10);
 
 	return (0);
 }
