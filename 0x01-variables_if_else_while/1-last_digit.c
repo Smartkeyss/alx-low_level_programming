@@ -13,13 +13,16 @@ int main(void)
 {
 	int n;
 
+	int x;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	if (n < 0)
-		printf("%d is negative\n", n);
-	if (n == 0)
-		printf("%d is zero\n", n);
+	x = n % 10;
+	if (x > 5)
+		printf("Last digit of %d is %d\n", n, x);
+	if (x < 6 && x != 0)
+		printf("Last digit of %d is %d\n", n, x);
+	if (x == 0)
+		printf("Last digit of %d is %d\n", n, x);
 	return (0);
 }
