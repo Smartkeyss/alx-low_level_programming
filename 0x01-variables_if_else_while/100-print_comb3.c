@@ -20,12 +20,11 @@ int main(void)
 				putchar(x);
 				putchar(y);
 			}
-			if (x != 56 || x !=57)
+			if (y != 56 || x != 57)
 			{
 				putchar(44);
 				putchar(32);
 			}
-			
 		}
 	}
 	putchar(10);

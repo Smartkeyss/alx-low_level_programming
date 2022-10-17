@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - input ASCII value of numbers 
+ * main - input ASCII value of numbers
  * output numbers with comma and space
  * Return: Always 0 (successs)
  */
