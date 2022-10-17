@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - input the ascii value 
+ * main - input the ascii value
  * output the hexadecimal of the number
  * Return: Always 0 (success)
  */
@@ -12,7 +12,7 @@ int main(void)
 
 	int n;
 
-	for (x = 58; x <= 57; x++)
+	for (x = 0; x <= 9; x++)
 	{
 		putchar(x);
 	}
@@ -24,4 +24,4 @@ int main(void)
 	putchar(10);
 
 	return (0);
-}	
+}
