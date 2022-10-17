@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main -> Input the ASCII number corresponding digits
  * print output
