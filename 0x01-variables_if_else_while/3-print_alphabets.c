@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main -> input ASCII number that is related to the character
+ * main - input ASCII number that is related to the character
  * print out it character
- * return: Always (0) success
+ * return: Always 0 (success)
  */
 
 int main(void)
