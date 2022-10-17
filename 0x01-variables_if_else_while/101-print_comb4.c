@@ -13,7 +13,7 @@ int main(void)
 
 	for (a = 48; a <= 57; a++)
 	{
-		for (b = 48; b <=57; b++)
+		for (b = 48; b <= 57; b++)
 		{
 			for (c = 48; c <= 57; c++)
 			{
@@ -22,7 +22,7 @@ int main(void)
 					putchar(a);
 					putchar(b);
 					putchar(c);
-					if (c != 55 || b != 56 || a != 57)
+					if (a != 55 || b != 56)
 					{
 						putchar(44);
 						putchar(32);
